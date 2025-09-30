@@ -28,7 +28,7 @@ external-controller: 127.0.0.1:9090
 # =======================
 dns:
   enable: true
-  listen: 0.0.0.0:7874
+  #listen: 0.0.0.0:7874
   enhanced-mode: fake-ip         # avoids DNS poisoning, necessary in Iran
   ipv6: false                    # disable IPv6 if your ISP blocks/fakes it
   default-nameserver:            # fallback for requests not intercepted by rule-providers
