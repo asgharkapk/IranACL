@@ -472,7 +472,26 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 
-proxies: []
+proxies:
+- name: "dns-out"
+  type: dns
+- name: "UDP_IPv4_DIRECT"
+  type: direct
+  udp: true
+  ip-version: ipv4
+- name: "UDP_IPv6_DIRECT"
+  type: direct
+  udp: true
+  ip-version: ipv6
+- name: "TCP_IPv4_DIRECT"
+  type: direct
+  udp: false
+  ip-version: ipv4
+- name: "TCP_IPv6_DIRECT"
+  type: direct
+  udp: false
+  ip-version: ipv6
+
 proxy-groups: []
 
 rules:
