@@ -1,6 +1,6 @@
 payload:
-  - PROCESS-NAME,steam.exe
-  - PROCESS-NAME,steamwebhelper.exe
+  # - PROCESS-NAME,steam.exe
+  # - PROCESS-NAME,steamwebhelper.exe
   # Steam
   - DOMAIN,steambroadcast.akamaized.net
   - DOMAIN,steamcommunity-a.akamaihd.net
