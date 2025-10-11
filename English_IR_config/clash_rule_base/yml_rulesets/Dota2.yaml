@@ -1,5 +1,6 @@
 payload:
-  - PROCESS-NAME,dota2.exe
+  - DOMAIN-SUFFIX,dota2.com
+  # - PROCESS-NAME,dota2.exe
   # Dota2 - Valve ASN Ranges and Extra Servers
   - IP-CIDR,103.10.124.0/23,no-resolve
   - IP-CIDR,103.28.54.0/23,no-resolve
@@ -57,4 +58,3 @@ payload:
   - IP-CIDR,23.36.163.22/32,no-resolve
   - DOMAIN-SUFFIX,steamcloud-bah.s3.dualstack.me-south-1.amazonaws.com
   - DOMAIN-SUFFIX,steamclouddubai.blob.core.windows.net
-  - DOMAIN-SUFFIX,dota2.com
