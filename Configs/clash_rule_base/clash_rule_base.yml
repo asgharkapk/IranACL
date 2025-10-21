@@ -566,8 +566,6 @@ rules:
   - PROCESS-NAME,com.google.android.gms,نوع انتخاب پروکسی 🔀
   - RULE-SET,google-play,نوع انتخاب پروکسی 🔀
   - RULE-SET,google,گوگل 🌍
-  - IP-CIDR,10.10.34.0/24,نوع انتخاب پروکسی 🔀
-  - RULE-SET,local_ips,بدون فیلترشکن 🛡️
   - RULE-SET,private,بدون فیلترشکن 🛡️
 
 ntp:
